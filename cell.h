@@ -1,5 +1,5 @@
-#ifndef BTT_FIELD_H
-#define BTT_FIELD_H
+#ifndef BTT_CELL_H
+#define BTT_CELL_H
 
 #include <stdint.h>
 
@@ -13,4 +13,4 @@ void get_cell (void);
 void print_board (void);
 void print_cell (char *pref, uint16_t mask);
 
-#endif /* BTT_FIELD_H */
+#endif /* BTT_CELL_H */
