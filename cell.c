@@ -18,11 +18,11 @@ void print_cell (char *pref, uint16_t mask)
 {
     printf(pref);
     if(brd1 & mask)
-        printf("%c", char1);
+        putchar(char1);
     else if(brd2 & mask)
-        printf("%c", char2);
+        putchar(char2);
     else
-        printf(" ");
+        putchar(' ');
 }
 
 void print_board (void)
